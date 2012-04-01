@@ -1,0 +1,19 @@
+[global_config]
+  title_transmit_bg_color = "#ec1c0f"
+  tab_position = hidden
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = DejaVu LGC Sans Mono 10
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
