@@ -4,15 +4,47 @@
   borderless = True
 [keybindings]
 [profiles]
-  [[default]]
+  [[Homer]]
     use_system_font = False
-    font = DejaVu LGC Sans Mono 10
+    show_titlebar = False
+    foreground_color = "#00ff00"
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#1e90ff:#cd00cd:#00cdcd:#e5e5e5:#4c4c4c:#ff0000:#00ff00:#ffff00:#4682b4:#ff00ff:#00ffff:#ffffff"
+    background_darkness = 0.56
+    scrollback_lines = 999
     background_type = transparent
+    use_system_font = False
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    font = Mensch 11
+  [[Other]]
+    use_system_font = False
+    show_titlebar = False
+    foreground_color = "#fdff00"
+  [[mysql]]
+    use_system_font = False
+    background_darkness = 0.65
+    background_type = transparent
+    scrollbar_position = hidden
+    foreground_color = "#b450fe"
+    show_titlebar = False
+    font = Mensch Bold 10
+  [[SSHFS]]
+    use_system_font = False
+    show_titlebar = False
+    foreground_color = "#00ff00"
+  [[IRC]]
+    use_system_font = False
+    font = Mensch 12
+    show_titlebar = False
+    foreground_color = "#ff0000"
 [layouts]
   [[default]]
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
     [[[window0]]]
       type = Window
       parent = ""

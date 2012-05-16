@@ -5,7 +5,7 @@
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
         <property name="image-path" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
-        <property name="last-image" type="string" value="/home/emile/Downloads/archlinux-logo-light-90dpi.png"/>
+        <property name="last-image" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
         <property name="last-single-image" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
         <property name="color1" type="array">
           <value type="uint" value="0"/>
@@ -14,10 +14,11 @@
           <value type="uint" value="65535"/>
         </property>
         <property name="last-image-list" type="string" value="/home/emile/.config/xfce4/desktop/backdrop.list"/>
+        <property name="image-show" type="bool" value="false"/>
       </property>
       <property name="monitor1" type="empty">
         <property name="image-path" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
-        <property name="last-image" type="string" value="/home/emile/Downloads/archlinux-logo-light-90dpi.png"/>
+        <property name="last-image" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
         <property name="last-single-image" type="string" value="/home/emile/wallpapers/1333270936_archlinux_256809.jpeg"/>
         <property name="color1" type="array">
           <value type="uint" value="0"/>
@@ -25,6 +26,7 @@
           <value type="uint" value="0"/>
           <value type="uint" value="65535"/>
         </property>
+        <property name="image-show" type="bool" value="false"/>
       </property>
     </property>
   </property>
@@ -33,5 +35,8 @@
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show" type="bool" value="false"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="icon-size" type="uint" value="32"/>
   </property>
 </channel>
