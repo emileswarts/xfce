@@ -32,6 +32,7 @@
     font = Mensch Bold 10
   [[SSHFS]]
     use_system_font = False
+    scrollbar_position = hidden
     show_titlebar = False
     foreground_color = "#00ff00"
   [[IRC]]
